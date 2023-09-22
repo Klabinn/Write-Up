@@ -1,2 +1,2 @@
-# Write-up
-WriteUps!
+# Write-ups
+
