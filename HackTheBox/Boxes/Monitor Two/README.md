@@ -74,7 +74,7 @@ but the version is lower that 20.10.9 version. Because the CVE got patched on th
 
 https://github.com/UncleJ4ck/CVE-2021-41091
 
-Theres a step by step guide on how to do the exploit. To save some times, im just gonna skip the explenation you could learn the setup on the link above.
+Theres a step by step guide on how to do the exploit. To save some times, im just gonna skip the explanation you could learn the setup on the link above.
 
 But to actually do this exploit you need to escelate /bin/bash restriction using chmod. But you cant do it because the docker is not root.
 
