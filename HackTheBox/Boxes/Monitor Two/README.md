@@ -6,9 +6,11 @@ So the first thing i did is some information gathering.
 I immediately tried to connect to its IP, and it turns out there is a homepage.
 ![Untitled](https://github.com/Klabinn/Write-up/assets/107389203/d3b7362b-c3cf-45f2-a667-36ee022c6bc6)
 
-And the next thing i did is, obviously nmap! Usually i use -sV -O -p- -T5. But my computer is acting out this last few week so this time i only use raw nmap `Not Recommended`
+And the next thing i did is, obviously nmap! Usually i use -sV -O -p- -T5. But my computer is acting out this last few week so this time 
+
+i only use raw nmap `Not Recommended`
 <br>
-This is my write-up run prior to this i use the -sV -O -T5 -p- command to scan the network. 
+This is my write-up run, prior to this i use the -sV -O -T5 -p- command to scan the network. 
 
 ![Untitled (1)](https://github.com/Klabinn/Write-up/assets/107389203/95cb5e7c-46dc-4343-b818-39697424c2c8)
 
