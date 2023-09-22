@@ -78,7 +78,7 @@ Theres a step by step guide on how to do the exploit. To save some times, im jus
 
 But to actually do this exploit you need to escelate /bin/bash restriction using chmod. But you cant do it because the docker is not root.
 
-Now we try to escelate the previlage of the docker :D.
+Now we try to escelate the privilage of the docker :D.
 
 ![Untitled (13)](https://github.com/Klabinn/Write-up/assets/107389203/585cab65-8fc8-42d8-9802-acd839fd2a2f)
 
@@ -86,7 +86,7 @@ these are the commands we can play with. Not much, but we have capsh
 
 https://ihsansencan.github.io/privilege-escalation/linux/binaries/capsh.html
 
-the repo above shows that its possible to escelate previlege using capsh. So... we gonna use this method to escelate our docker previlege.
+the repo above shows that its possible to escelate privilege using capsh. So... we gonna use this method to escelate our docker privilege.
 
 ![Untitled (14)](https://github.com/Klabinn/Write-up/assets/107389203/c6bb011c-a758-4a87-b75f-e69db397e030)
 
@@ -94,7 +94,7 @@ okay now we can do the chmod
 
 ```chmod u+s /bin/bash```
 
-Now we go back to the ssh and run the exploit to find root previlage directory
+Now we go back to the ssh and run the exploit to find root privilage directory
 
 ![Untitled (15)](https://github.com/Klabinn/Write-up/assets/107389203/3c31c717-02b4-4882-9e53-f538b273836f)
 
